@@ -1,0 +1,424 @@
+*{
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+ }
+
+ /*      LOGIN AREA         */
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4267B2;
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 10px;
+ }
+
+ .container .logo{
+    color: white;
+ }
+
+ .container .btn{
+    color: white;
+    font-size: small;
+ }
+ 
+.full{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+.full .inputting h3{
+    color: #A9A9A9;
+    padding-left: 20%;
+}
+ 
+.full .inputting input:nth-child(1){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;
+
+ }
+
+ .full .inputting input:nth-child(2){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;
+
+ }
+
+ .full .inputting input:nth-child(3){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;
+
+ }
+
+ .full .LogReg input:nth-child(1){
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.full .LogReg input:nth-child(1):hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+.full .LogReg a{
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.full .LogReg a:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+.LogReg{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 20%;
+
+}
+
+.full p{
+    font-size: smaller;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 10px;  
+}
+
+/*  REGISTRATION AREA  */
+
+.regs_full h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.regs_full .RegCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+
+}
+
+.regs_full .RegCard .regs_inputting h3{
+    color: #A9A9A9;
+    padding-left: 20%;
+}
+
+.regs_full .RegCard .regs_inputting input:nth-child(1){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.regs_full .RegCard .regs_inputting input:nth-child(2){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.regs_full .RegCard .regs_inputting input:nth-child(3){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.regs_full .RegCard .regs_inputting input:nth-child(4){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.regs_full .RegCard .regs_inputting input:nth-child(5){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.regs_full .RegCard .regs_LogReg{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;
+}
+
+.regs_full .RegCard .regs_LogReg input:first-child{
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.regs_full .RegCard .regs_LogReg input:first-child:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+.regs_full .RegCard .regs_LogReg p{
+    font-size: smaller;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.create_full{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_full p{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.create_full .infos input:nth-child(1){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+.create_full .infos input:nth-child(2){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.create_full .infos input:nth-child(3){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.create_full .post_button{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.create_full .post_button input:first-child{
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+
+.create_full .post_button input:first-child:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+
+  /* EDITPOST AREA  */
+.edit_full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.title_content p{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+
+}
+.title_content h1{
+    color:  #A9A9A9;;
+    font-size: x-small;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+
+}
+
+.title_content input:nth-child(1){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+
+.title_content input:nth-child(2){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+}
+.title_content input:nth-child(3){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 40px;  
+}
+
+
+.title_content input:nth-child(5){
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 40px;  
+}
+
+
+.save_button{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 30px;  
+
+
+}
+
+.save_button input:first-child{
+
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.edit_full .save_button input:first-child:hover{
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+
+
